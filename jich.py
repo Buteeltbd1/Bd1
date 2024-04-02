@@ -131,4 +131,5 @@ for i in range(year3):
         if current_date.weekday() < 5: 
             dad += 1
     d = dadlaga * 100 / dad
-    myTable2.add_row([s_date, e_date, dadlaga, "{:.2f}".format(d)])
+    myTable2.add_row([s_date, e_date, dadlaga, "{:.2f}".format(d)]) 
+    #18:05
